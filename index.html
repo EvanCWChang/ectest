@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC Test - AI 工具導航</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
 
+    <nav class="p-6 border-b border-slate-700 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-400">EC Test</h1>
+        <a href="https://github.com" class="hover:text-blue-400">GitHub Repo</a>
+    </nav>
+
+    <header class="text-center py-20 px-4">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">發現最強大的 AI 工具</h2>
+        <p class="text-slate-400 text-lg mb-8">精選、分類、快速上手的 AI 生產力指南</p>
+        <input type="text" placeholder="搜尋工具..." class="p-3 w-full max-w-md rounded-lg bg-slate-800 border border-slate-600 focus:outline-none focus:border-blue-500 text-white">
+    </header>
+
+    <div class="flex justify-center gap-4 mb-12 flex-wrap px-4">
+        <button class="px-4 py-2 bg-slate-800 rounded-full hover:bg-blue-600 transition">全部</button>
+        <button class="px-4 py-2 bg-slate-800 rounded-full hover:bg-blue-600 transition">文字生成</button>
+        <button class="px-4 py-2 bg-slate-800 rounded-full hover:bg-blue-600 transition">圖像處理</button>
+        <button class="px-4 py-2 bg-slate-800 rounded-full hover:bg-blue-600 transition">程式輔助</button>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+        
+        <div class="bg-slate-800 p-6 rounded-xl hover:shadow-lg hover:shadow-blue-500/20 transition border border-slate-700">
+            <div class="flex justify-between items-start mb-4">
+                <h3 class="text-xl font-bold">ChatGPT</h3>
+                <span class="bg-green-900 text-green-300 text-xs px-2 py-1 rounded">免費/付費</span>
+            </div>
+            <p class="text-slate-400 mb-4 text-sm">OpenAI 開發的最強大對話式 AI 模型，適用於各種文本任務。</p>
+            <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-slate-700 px-2 py-1 rounded">文字</span>
+                <span class="text-xs bg-slate-700 px-2 py-1 rounded">助理</span>
+            </div>
+            <a href="#" class="block text-center w-full py-2 bg-blue-600 rounded hover:bg-blue-500 transition">前往網站</a>
+        </div>
+
+        <div class="bg-slate-800 p-6 rounded-xl hover:shadow-lg hover:shadow-blue-500/20 transition border border-slate-700">
+            <div class="flex justify-between items-start mb-4">
+                <h3 class="text-xl font-bold">Midjourney</h3>
+                <span class="bg-purple-900 text-purple-300 text-xs px-2 py-1 rounded">付費</span>
+            </div>
+            <p class="text-slate-400 mb-4 text-sm">目前效果最驚人的 AI 繪圖工具，需透過 Discord 操作。</p>
+            <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-slate-700 px-2 py-1 rounded">繪圖</span>
+                <span class="text-xs bg-slate-700 px-2 py-1 rounded">藝術</span>
+            </div>
+            <a href="#" class="block text-center w-full py-2 bg-blue-600 rounded hover:bg-blue-500 transition">前往網站</a>
+        </div>
+
+        </main>
+
+    <footer class="text-center py-8 text-slate-500 text-sm border-t border-slate-800">
+        <p>© 2024 EC Test. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
